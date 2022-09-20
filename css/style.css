@@ -23,11 +23,11 @@ header{
     vertical-align: top;
 }
 
-.blue, .green, .orange, .pink, .violet, .lightgreen, .banner, .button{
+.blue, .green, .orange, .pink, .violet, .lightgreen, .banner, .head_button{
     color: white;
 }
 
-.button, .button_2{
+.head_button, .head_button_2{
     border-radius: 5px;
     display: inline-block;
     padding: 0.5rem;
@@ -47,17 +47,18 @@ header{
     border-radius: 4px;
 }
 
-.button{
+.head_button{
     background-color: rgb(97, 165, 228);
 }
 
-.button_2{
+.head_button_2{
     background-color: white;
     color: rgb(203, 206, 210);
     border: 0.1rem solid rgb(203, 206, 210);
 }
 
 .tasks{
+    padding-top: 2rem;
     padding-left: 3rem;
     background-color: white;
     width: 100%;
