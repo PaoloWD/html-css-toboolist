@@ -13,10 +13,18 @@ header{
     margin-bottom: 2rem;
 }
 
+#upcoming{
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+}
 #title_text{
     font-size: 3rem;
     font-weight: bold;
     vertical-align: top;
+}
+
+.blue, .green, .orange, .pink, .violet, .lightgreen, .banner, .button{
+    color: white;
 }
 
 .button, .button_2{
@@ -25,6 +33,7 @@ header{
     padding: 0.5rem;
     margin: 1rem 0;
 }
+
 .contain{
     height: 100%;
     width: 75%;
@@ -40,11 +49,54 @@ header{
 
 .button{
     background-color: rgb(97, 165, 228);
-    color: white;
 }
 
 .button_2{
     background-color: white;
     color: rgb(203, 206, 210);
     border: 0.1rem solid rgb(203, 206, 210);
+}
+
+.tasks{
+    padding-left: 3rem;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 0.1rem;
+    border-radius: 5px;
+}
+
+.tasks_buttons{
+    border-radius: 15px;
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.blue{
+    background-color: rgb(97, 165, 228);
+}
+
+.violet{
+    background-color: violet;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.lightgreen{
+    background-color: lightgreen;
+}
+
+.margin{
+    margin-bottom: 2rem;
 }
